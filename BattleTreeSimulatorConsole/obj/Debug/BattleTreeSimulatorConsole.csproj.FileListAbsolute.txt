@@ -11,3 +11,4 @@ C:\Users\jroot\Documents\BattleTreeSim-master\BattleTreeSimulatorConsole\BattleT
 C:\Users\jroot\Documents\BattleTreeSim-master\BattleTreeSimulatorConsole\BattleTreeSimulatorConsole\obj\Debug\BattleTreeSimulatorConsole.csproj.CoreCompileInputs.cache
 C:\Users\jroot\Documents\BattleTreeSim-master\BattleTreeSimulatorConsole\BattleTreeSimulatorConsole\obj\Debug\BattleTreeSimulatorConsole.exe
 C:\Users\jroot\Documents\BattleTreeSim-master\BattleTreeSimulatorConsole\BattleTreeSimulatorConsole\obj\Debug\BattleTreeSimulatorConsole.pdb
+C:\Users\jroot\Documents\BattleTreeSim-master\BattleTreeSimulatorConsole\BattleTreeSimulatorConsole\obj\Debug\BattleTreeSimulatorConsole.csprojResolveAssemblyReference.cache

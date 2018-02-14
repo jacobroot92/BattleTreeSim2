@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace BattleTreeSimulatorConsole.Trainers
 {
-    class Trainer
+    public class Trainer
     {
+        public string Name;
         public IPokemon Pokemon1 { get; set; }
         public IPokemon Pokemon2 { get; set; }
         public IPokemon Pokemon3 { get; set; }
@@ -18,8 +19,9 @@ namespace BattleTreeSimulatorConsole.Trainers
             //Blank to randomly populate computer trainer
         }
 
-        public Trainer(IPokemon pokemon1, IPokemon pokemon2, IPokemon pokemon3)
+        public Trainer(string name, IPokemon pokemon1, IPokemon pokemon2, IPokemon pokemon3)
         {
+            Name = name;
             Pokemon1 = pokemon1;
             Pokemon2 = pokemon2;
             Pokemon3 = pokemon3;
@@ -45,6 +47,7 @@ namespace BattleTreeSimulatorConsole.Trainers
 
         public void PopulateRandomCPU()
         {
+            Name = "Breeder Bob";
             DamagingMove move1 = new DamagingMove("Thunderbolt", Type.Electric, MoveType.Special, 100, 15, 90);
             Species Pichu = new Species("Pichu", Type.Electric, Type.None, 20, 40, 15, 35, 35, 60, true);
             Species Pikachu = new Species("Pikachu", Type.Electric, Type.None, 35, 55, 40, 50, 50, 90, true);
